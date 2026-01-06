@@ -1,0 +1,92 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.elasri:ms-discovery >-----------------------
+[INFO] Building ms-discovery 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.0:run (default-cli) > test-compile @ ms-discovery >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ms-discovery ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ ms-discovery ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ms-discovery ---
+[INFO] skip non existing resourceDirectory C:\Users\AC2I\Desktop\lefort\biblio-lefort\ms-discovery\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ ms-discovery ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.0.0:run (default-cli) < test-compile @ ms-discovery <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.0:run (default-cli) @ ms-discovery ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.0)
+
+2026-01-06T15:31:34.074+01:00  INFO 26748 --- [ms-discovery] [           main] c.e.msdiscovery.MsDiscoveryApplication   : Starting MsDiscoveryApplication using Java 17.0.12 with PID 26748 (C:\Users\AC2I\Desktop\lefort\biblio-lefort\ms-discovery\target\classes started by AC2I in C:\Users\AC2I\Desktop\lefort\biblio-lefort\ms-discovery)
+2026-01-06T15:31:34.084+01:00  INFO 26748 --- [ms-discovery] [           main] c.e.msdiscovery.MsDiscoveryApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-01-06T15:31:36.092+01:00  INFO 26748 --- [ms-discovery] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=68088fd4-40ef-3913-a1a8-538ce50c829d
+2026-01-06T15:31:36.827+01:00  INFO 26748 --- [ms-discovery] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8761 (http)
+2026-01-06T15:31:36.872+01:00  INFO 26748 --- [ms-discovery] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-06T15:31:36.873+01:00  INFO 26748 --- [ms-discovery] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-01-06T15:31:37.128+01:00  INFO 26748 --- [ms-discovery] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2914 ms
+2026-01-06T15:31:39.587+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-01-06T15:31:39.587+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-01-06T15:31:40.033+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-01-06T15:31:40.034+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-01-06T15:31:40.434+01:00  INFO 26748 --- [ms-discovery] [           main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-01-06T15:31:42.535+01:00  WARN 26748 --- [ms-discovery] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-01-06T15:31:42.575+01:00  INFO 26748 --- [ms-discovery] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-01-06T15:31:42.617+01:00  INFO 26748 --- [ms-discovery] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-01-06T15:31:42.617+01:00  INFO 26748 --- [ms-discovery] [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-01-06T15:31:42.620+01:00  INFO 26748 --- [ms-discovery] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1767709902618 with initial instances count: 0
+2026-01-06T15:31:42.696+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2026-01-06T15:31:42.699+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2026-01-06T15:31:42.879+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-01-06T15:31:42.879+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-01-06T15:31:42.879+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-01-06T15:31:42.879+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-01-06T15:31:42.977+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2026-01-06T15:31:42.991+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2026-01-06T15:31:42.991+01:00  INFO 26748 --- [ms-discovery] [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2026-01-06T15:31:43.000+01:00  INFO 26748 --- [ms-discovery] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2026-01-06T15:31:43.078+01:00  INFO 26748 --- [ms-discovery] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-DISCOVERY with eureka with status UP
+2026-01-06T15:31:43.097+01:00  INFO 26748 --- [ms-discovery] [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2026-01-06T15:31:43.097+01:00  INFO 26748 --- [ms-discovery] [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2026-01-06T15:31:43.097+01:00  INFO 26748 --- [ms-discovery] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2026-01-06T15:31:43.098+01:00  INFO 26748 --- [ms-discovery] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2026-01-06T15:31:43.098+01:00  INFO 26748 --- [ms-discovery] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2026-01-06T15:31:43.101+01:00  INFO 26748 --- [ms-discovery] [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2026-01-06T15:31:43.127+01:00  INFO 26748 --- [ms-discovery] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8761 (http) with context path '/'
+2026-01-06T15:31:43.129+01:00  INFO 26748 --- [ms-discovery] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2026-01-06T15:31:43.543+01:00  INFO 26748 --- [ms-discovery] [           main] c.e.msdiscovery.MsDiscoveryApplication   : Started MsDiscoveryApplication in 10.964 seconds (process running for 12.347)
+2026-01-06T15:31:58.896+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06T15:31:58.896+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-06T15:31:58.900+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-01-06T15:31:59.114+01:00  WARN 26748 --- [ms-discovery] [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: MS-CONFIG - AC2I:ms-config:9999
+2026-01-06T15:31:59.115+01:00  WARN 26748 --- [ms-discovery] [nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): MS-CONFIG - AC2I:ms-config:9999
+2026-01-06T15:31:59.415+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MS-CONFIG/AC2I:ms-config:9999 with status UP (replication=false)
+2026-01-06T15:31:59.431+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MS-CONFIG/AC2I:ms-config:9999 with status UP (replication=false)
+2026-01-06T15:31:59.581+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ETUDIANT2023/AC2I:etudiant2023:2023 with status UP (replication=false)
+2026-01-06T15:32:00.400+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MS-CONFIG/AC2I:ms-config:9999 with status UP (replication=true)
+2026-01-06T15:32:00.402+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ETUDIANT2023/AC2I:etudiant2023:2023 with status UP (replication=true)
+2026-01-06T15:32:08.300+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance LIVRE2023/AC2I:livre2023:2024 with status UP (replication=false)
+2026-01-06T15:32:08.814+01:00  INFO 26748 --- [ms-discovery] [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance LIVRE2023/AC2I:livre2023:2024 with status UP (replication=true)
+2026-01-06T15:32:14.614+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance EMPRUNT2023/AC2I:emprunt2023:2025 with status UP (replication=false)
+2026-01-06T15:32:15.123+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance EMPRUNT2023/AC2I:emprunt2023:2025 with status UP (replication=true)
+2026-01-06T15:32:15.871+01:00  INFO 26748 --- [ms-discovery] [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MS-GATEWAY/AC2I:ms-gateway:8085 with status UP (replication=false)
+2026-01-06T15:32:16.383+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MS-GATEWAY/AC2I:ms-gateway:8085 with status UP (replication=true)
+2026-01-06T15:32:43.100+01:00  INFO 26748 --- [ms-discovery] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-01-06T15:33:43.101+01:00  INFO 26748 --- [ms-discovery] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
