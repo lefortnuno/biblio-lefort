@@ -90,3 +90,4 @@
 2026-01-06T15:32:16.383+01:00  INFO 26748 --- [ms-discovery] [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MS-GATEWAY/AC2I:ms-gateway:8085 with status UP (replication=true)
 2026-01-06T15:32:43.100+01:00  INFO 26748 --- [ms-discovery] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2026-01-06T15:33:43.101+01:00  INFO 26748 --- [ms-discovery] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-01-06T15:34:43.106+01:00  INFO 26748 --- [ms-discovery] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
